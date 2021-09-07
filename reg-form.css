@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background: url(./bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container{
+    width: 1140px;
+    margin: 100px auto 0px;
+    background: rgba(0, 159, 199, 0.295);
+    border-radius: 10px;
+}
+
+.form-content {
+    width: 700px;
+    margin: 30px auto;
+}
+
+.reg-form .headingclass {
+    text-align: center;
+    padding: 30px 0px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.first-name{
+    float: left;
+    width: 320px;
+}
+
+.last-name{
+    float: right;
+    width: 320px;
+}
+
+.firstname-lastname input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    outline: none;
+    transition: 0.5s;
+}
+
+.firstname-lastname input:hover{
+    box-shadow: 0px -1px 5px #53cbd6;
+}
+
+.normal input:hover{
+    box-shadow: 0px -1px 5px #53cbd6;
+}
+
+.normal input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    outline: none;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+
+.btn button {
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.btn button a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+}
+
+.btn {
+    padding: 25px 0px;
+    display: inline-block;
+}
+
+.normal input:last-child{
+    margin-bottom: 0px;
+}
+
+.btn button{
+    transition: 0.5s;
+}
+
+.btn button:hover{
+    box-shadow: 0px -1px 5px #53cbd6;
+}
